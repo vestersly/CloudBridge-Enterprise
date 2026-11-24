@@ -1,0 +1,34 @@
+# CloudBridge - Private infrastructure configuration
+ansible/inventory/hosts.ini
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.ppk
+id_rsa*
+id_ed25519*
+secrets/
+.vault_pass*
+
+# Private security evidence
+evidence/private/
+*.xml
+*.log
+*.db
+*.db.new
+
+# Terraform sensitive files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.example.tfvars
+
+# Python and local development
+__pycache__/
+.venv/
+.vscode/
+*.swp

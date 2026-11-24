@@ -1,0 +1,9 @@
+---
+- name: Install AIDE file integrity monitoring packages
+  ansible.builtin.apt:
+    name:
+      - aide
+      - aide-common
+    state: present
+    install_recommends: false
+  become: true

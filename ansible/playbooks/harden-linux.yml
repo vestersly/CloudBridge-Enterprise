@@ -1,0 +1,8 @@
+---
+- name: CloudBridge Chapter 0 - Linux Security Hardening
+  hosts: onprem_linux
+  become: true
+  gather_facts: true
+
+  roles:
+    - role: aide
