@@ -89,3 +89,45 @@ not a production customer deployment.
 ## Engineering Documentation
 
 - [Engineering Handbook v0.1](documentation/master-handbook.md)
+
+## Project Purpose and Originality
+
+CloudBridge Enterprise is an independent, self-initiated
+engineering and educational project designed and
+implemented by Awungjia Sylvester.
+
+The project simulates the secure migration of a fictional
+Belgian enterprise from on-premises infrastructure to AWS.
+
+Its objectives include:
+
+- Practical enterprise cloud engineering.
+- Professional development and knowledge sharing.
+- Reproducible on-premises and cloud infrastructure.
+- Free educational resources for students and engineers.
+- Security-first infrastructure automation.
+
+The project provides manual learning and automated
+implementation paths as development progresses.
+
+Third-party technologies, libraries, standards and
+external resources are acknowledged and used in
+accordance with their respective licenses.
+
+### Engineering Standards
+
+- [Engineering Reproducibility Standard v1.0](documentation/reproducibility-standard.md)
+
+## License
+
+CloudBridge Enterprise is licensed under the
+Apache License, Version 2.0 (Apache-2.0).
+
+Copyright 2026 Awungjia Sylvester.
+
+Students, engineers and organizations may use,
+modify and redistribute the project in accordance
+with the license terms.
+
+- [Apache 2.0 License](LICENSE)
+- [Copyright and Attribution](NOTICE)
